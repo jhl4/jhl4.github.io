@@ -1,0 +1,182 @@
+.tes2 {
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+}
+
+.sun {
+    position: absolute;
+    left: 150px;
+    top: 50px;
+}
+
+body {
+    color: #40514E;
+    background-color: #FAF9F6;
+    margin: 0;
+    font-family: 'Merriweather', serif;
+}
+  
+td {
+    padding: 50px;
+}
+  
+.tes {
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+}
+  
+.top-container h1 {
+color: #4e999c;
+font-size: 5.625rem;
+margin: 50px auto 0 auto;
+font-family: 'Montserrat', sans-serif;
+}
+  
+  
+h2 {
+color: #4e999c;
+font-family: 'Montserrat', sans-serif;
+font-size: 2.5rem;
+font-weight: normal;
+padding-bottom: 10px;
+}
+
+nav a {
+    color: #4e999c;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+}
+
+.footy a {
+    color: #4e999c;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+}
+
+.footy p {
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+
+  
+a:hover {
+color: #EAF6F6;
+}
+  
+  
+.center-text {
+text-align:center;
+display: block;
+margin-left:auto;
+margin-right:auto;
+}
+  
+  
+.top-container {
+background-color: #f9f3e4;
+position: relative;
+padding-top: 50px;
+}
+  
+.top-cloud {
+position: absolute;
+right: 300px;
+top: 50px;
+}
+  
+.bottom-cloud {
+position: absolute;
+left: 250px;
+top: 250px;
+}
+  
+.navColors {
+    background-color: #FAF9F6;
+    color: #4e999c;
+}
+
+.movetoRight {
+    padding-left: 90%;
+}
+ 
+.face {
+    border-radius: 35%;
+}
+
+.ptext {
+    font-size: 18px;
+    background-color: #a4c7d2;
+    padding: 40px 30px 40px 30px;
+    box-shadow: 12px 12px #40514E;
+}
+
+.educationtext {
+    font-size: 18px;
+    background-color: #a4c7d2;
+    padding: 30px 15px 30px 15px;
+    box-shadow: 12px 12px #40514E;
+    text-align: left;
+}
+
+.educationtext img {
+    float: left;
+    padding-right: 10%;
+}
+
+.contacttext {
+    padding: 20px 35px 20px 35px;
+    background-color: #a4c7d2;
+    font-size: 18px;
+    box-shadow: 12px 12px #40514E;
+    text-align: left;
+}
+
+.linkedin {
+    color: #40514E;
+    text-decoration: underline;
+}
+
+.footy {
+    background-color:#f9f3e4;
+    width: 100%;
+    margin-bottom: 0px;
+}
+
+html {
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.gridContain {
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+@media (max-width: 1350px) {
+    .gridContain {
+        display: block;
+        grid-template-columns: 60% 40%;
+    }
+
+    .educationtext img {
+        float: left;
+        padding-right: 0;
+    }
+}
+
+.important {
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.courses li {
+    font-size: 16px;
+}
+
+.projectDisplay {
+    margin-top: 20px;
+}
+
+  
