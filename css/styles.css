@@ -166,6 +166,23 @@ html {
     }
 }
 
+.gridContain2 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+@media (max-width: 1900px) {
+    .gridContain2 {
+        display: block;
+        grid-template-columns: 60% 40%;
+    }
+
+    .educationtext img {
+        float: left;
+        padding-right: 0;
+    }
+}
+
 .important {
     font-weight: bold;
     font-size: 22px;
@@ -179,4 +196,22 @@ html {
     margin-top: 20px;
 }
 
+.projectTitle {
+    text-align: center;
+}
+
+.card-color {
+    background-color: #a4c7d2;
+}
+
+#bold {
+    font-weight: bold;
+}
+
+.projectbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Ensures the navbar stays on top of other elements */
+}
   

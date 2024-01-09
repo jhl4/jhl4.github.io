@@ -37,11 +37,11 @@
 
 <body>
     <nav class="navbar navbar-expand-md bg-body-tertiary navColors" id="Home">
-          <a class="navbar-brand" href="#Home">Jeffrey Li</a>
+          <a class="navbar-brand" href="index.html">Jeffrey Li</a>
             <ul class="navbar-nav ml-auto">
-              <li class="nav-item">
+              <!-- <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="Jeffrey_Li_Resume.pdf" target="_blank">Resume</a>
-              </li>
+              </li> -->
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#AboutMe">About Me</a>
               </li>
@@ -73,10 +73,13 @@
       <div class="col-lg-6 mx-auto">
         <div class="lead mb-4 ptext"> <p>Hi! Welcome to my website.  <br> <br>
 
-          My name is Jeffrey Li and I am an undergraduate student at Carnegie Mellon University. 
-          I am pursuing a B.S. in Information Systems with a double major in Computer Science. <br> <br>
+          My name is Jeffrey and I am an undergraduate student at Carnegie Mellon University where
+          I am pursuing a B.S. in Information Systems with a double major in Artificial Intelligence. I am passionate about software development 
+          and this website is intended to showcase some of my work. :) <br> <br>
 
-          I love cooking, skating, and spending quality time with friends.
+          Some more about me: <br>
+          
+          I'm big into sports - Diehard Toronto Raptors and San Diego Padres fan. I also like cooking, skating, and spending quality time with friends. 
           </p>
         </div>
       </div>
@@ -94,19 +97,21 @@
             <p> <span class="important"> Carnegie Mellon University </span>  <br>
               <ul>
                 <li> B.S Information Systems </li>
-                <li> Double Major in Computer Science </li>
+                <li> Double Major in Artificial Intelligence </li>
               </ul>
               Relevant Coursework: 
 
               <ul class="courses">
-                <li> 15-281: AI: Representation and Problem Solving (Current) </li>
-                <li> 17-214: Principles of Software Construction (Current) </li>
-                <li> 67-262: Database Design and Development (Current) </li>
+                <li> 10-315: Introduction to Machine Learning* </li>
+                <li> 15-213: Introduction to Computer Systems* </li>
+                <li> 15-251: Theoretical Computer Science* </li>
+                <li> 15-281: AI: Representation and Problem Solving </li>
+                <li> 17-214: Principles of Software Construction </li>
+                <li> 67-272: Application Design and Development* </li>
+                <li> 67-262: Database Design and Development </li>
                 <li> 15-150: Functional Programming </li>
-                <li> 15-122: Imperative Computation </li>
+                <li> 15-122: Data Structures and Algorithms </li>
                 <li> 21-127: Mathematical Concepts and Proofs </li>
-                <li> 21-241: Matrices and Linear Transformations </li>
-                <li> 21-259: 3D Calculus </li>
               </ul>
             </p>
           </div>
@@ -183,19 +188,21 @@
     
     <div class="album py-5 bg-body-tertiary" id="MyProjects">
       <h1 class="display-5 fw-bold text-body-emphasis header border-bottom center-text">My Projects</h1>
-      <a class="display-5 fw-bold text-body-emphasis header center-text" href="http://34.172.196.176/">Click here to see one of my projects. </a>
-      <h3 class="display-5 fw-bold text-body-emphasis header center-text">Will update soon! :)</h3>
-      <!--
+      <!-- <a class="display-5 fw-bold text-body-emphasis header center-text" href="http://34.172.196.176/">Click here to see one of my projects. </a>
+      <h3 class="display-5 fw-bold text-body-emphasis header center-text">Will update soon! :)</h3> -->
       <div class="container projectDisplay">
         <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
           <div class="col">
             <div class="card shadow-sm">
-              <img class="bd-placeholder-img card-img-top" src="bluemountain3.png" width="100%" height="225">
-              <div class="card-body">
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <img class="bd-placeholder-img card-img-top" src="santorini.png" width="100%" height="225">
+              <div class="card-color card-body">
+                <p class="card-text projectTitle">Santorini Online Board Game</p>
                 <div class="d-flex justify-content-center align-items-center">
                   <div class="btn-group">
-                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                    <a href="santorini.html">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  </a>
+                  
                   </div>
                 </div>
               </div>
@@ -203,40 +210,26 @@
           </div>
           <div class="col">
             <div class="card shadow-sm">
-              <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-              <div class="card-body">
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <img class="bd-placeholder-img card-img-top" src="flashcard.png" width="100%" height="225">
+              <div class="card-color card-body">
+                <p class="card-text projectTitle">Flashcards Interactive CLI</p>
                 <div class="d-flex justify-content-center align-items-center">
-                  <div class="btn-group">
+                  <a href="cli.html">
                     <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                  </div>
+                </a>
                 </div>
               </div>
             </div>
           </div>
           <div class="col">
             <div class="card shadow-sm">
-              <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-              <div class="card-body">
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <img class="bd-placeholder-img card-img-top" src="ice-cream.png" width="100%" height="225">
+              <div class="card-color card-body">
+                <p class="card-text projectTitle"> Website for Pittsburgh Ice Cream Shop </p>
                 <div class="d-flex justify-content-center align-items-center">
-                  <div class="btn-group">
+                  <a href="dessert.html">
                     <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-  
-          <div class="col">
-            <div class="card shadow-sm">
-              <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-              <div class="card-body">
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                <div class="d-flex justify-content-center align-items-center">
-                  <div class="btn-group">
-                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                  </div>
+                </a>
                 </div>
               </div>
             </div>
@@ -244,7 +237,6 @@
         
         </div>
       </div>
-      -->
     </div>
 
 
