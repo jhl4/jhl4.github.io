@@ -125,6 +125,19 @@ top: 250px;
     padding-right: 10%;
 }
 
+.educationtext2 {
+    font-size: 18px;
+    background-color: #a4c7d2;
+    padding: 30px 15px 30px 15px;
+    box-shadow: 12px 12px #40514E;
+    text-align: left;
+}
+
+.educationtext2 img {
+    float: left;
+    padding-right: 10%;
+}
+
 .contacttext {
     padding: 20px 35px 20px 35px;
     background-color: #a4c7d2;
@@ -177,7 +190,7 @@ html {
         grid-template-columns: 60% 40%;
     }
 
-    .educationtext img {
+    .educationtext2 img {
         float: left;
         padding-right: 0;
     }
